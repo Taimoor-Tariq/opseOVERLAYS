@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css2?family=Jura:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+:root {
+	--Main: #D7282F;
+	--Back: #101820;
+
+	--Red: #F92672;
+	--Blue: #66D9EF;
+	--Grey: #75715E;
+	--Black: #272822;
+	--White: #F8F8F2;
+	--Green: #A6E22E;
+	--Purple: #AE81FF;
+	--Orange: #FD971F;
+	--Yellow: #E6DB74;
+	--LightOrange: #E69F66;
+}
+
+body {
+	/* background: url('siteImages/overlayHelper3.png'); */
+	background-size: cover;
+	color: var(--White);
+	font-family: Jura;
+}
+
+/* *{ transition: 1s; } */
+
+.timers {
+	border-radius: 10px 10px 10px 10px;
+	overflow: hidden;
+	border-width: 10px;
+	border-top-style: ridge;
+	border-bottom-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	width: 7vw; height: 2.7vw;
+	top: 1vw;
+}
+.timers.behind {
+	border-color: var(--Back);
+	border-style: ridge;
+	border-bottom-style: none;
+	width: calc(7vw - 20px);
+	box-shadow: none;
+}
+.timers.left {left: 1.3vw;}
+.timers.right {right: 1.4vw; width: 6.9vw;}
+.timers.behind.right {width: calc(6.9vw - 20px);}
+
+#baronTimer {
+	border-radius: 10px 0px 0px 10px;
+	overflow: hidden;
+	border-width: 10px;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	height: 2.5vw; width: 0vw;
+	right: 8.3vw; top: 1.6vw;
+
+	transition: 0.4s;
+}
+#baronTimer.show {
+	border-left-style: ridge;
+	width: 6vw;
+}
+
+#elderTimer {
+	border-radius: 0px 10px 10px 0px;
+	overflow: hidden;
+	border-width: 10px;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	height: 2.5vw; width: 0vw;
+	left: 8.3vw; top: 1.6vw;
+
+	transition: 0.4s;
+}
+#elderTimer.show {
+	border-right-style: ridge;
+	width: 6vw;
+}
+
+
+.leaderboard {
+	border-radius: 30px 30px 0px 0px;
+	overflow: hidden;
+	border-width: 10px;
+	border-top-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	width: 38.3vw; height: 12.1vw;
+	bottom: 0px; left: 50.3vw;
+	transform: translate(-50%, 0);
+}
+.leaderboard.behind {
+	border-color: var(--Back);
+	border-style: ridge;
+	border-bottom-style: none;
+	width: calc(38.3vw - 20px);
+	height: 11.8vw;
+}
+
+.minimap {
+	border-radius: 30px 0px 0px 0px;
+	overflow: hidden;
+	border-width: 10px;
+	border-top-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	width: 14.6vw; height: 14.4vw;
+	bottom: 0px; right: 0px;
+}
+.minimap.behind {
+	border-color: var(--Back);
+	border-style: ridge;
+	border-bottom-style: none;
+	border-right-style: none;
+	width: calc(14.6vw - 10px);
+}
+
+.bottomLeft {
+	background-color: var(--Back);
+	background-image: url('siteImages/OPSE_Logo_HorizontalLight.png');
+	background-repeat: no-repeat;
+	background-position: 42% 52%;
+	background-size: 80%;
+	/* background-size: 40%; */
+
+	border-radius: 0px 30px 0px 0px;
+	overflow: hidden;
+	border-width: 10px;
+	border-top-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	width: 16.4vw; height: 6.8vw;
+	/* width: 31.17vw; height: 5.55vw; */
+	bottom: 0px; left: 0px;
+
+	/* animation: moveLogo 6s infinite linear; */
+}
+
+/* .topbar {
+	border-radius: 0px 0px 30px 30px;
+	overflow: hidden;
+	border-width: 10px;
+	border-bottom-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	width: 39.7vw; height: 3.35vw;
+	top: 0px; left: 50.2vw;
+	transform: translate(-50%, 0);
+}
+.topbar.behind {
+	border-color: var(--Back);
+	border-style: ridge;
+	border-top-style: none;
+	width: calc(39.7vw - 20px);
+} */
+
+.team {
+	display: flex;
+	background-color: var(--Back);
+	/* background-color: #101820CC; */
+	overflow: hidden;
+	border-width: 7px;
+	/* border-bottom-style: ridge; */
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	font-size: 1.8vw;
+
+	position: fixed;
+    height: 2vw; top: 0px;
+    opacity: 0.8;
+}
+.team.left {
+	width: 10vw; right: 69.5vw;
+	border-radius: 0px 0px 0px 15px;
+	justify-content: right;
+	border-left-style: ridge;
+}
+.team.right {
+	width: 10vw; left: 70vw;
+	border-radius: 0px 0px 15px 0px;
+	justify-content: left;
+	border-right-style: ridge;
+}
+
+.score {
+	float: left;
+	background-color: var(--Main);
+	width: 2.6vw; height: 2.2vw;
+	margin: 0px; padding: 0px;
+	text-align: center;
+	margin-top: -0.2vw;
+}
+
+.teamName {
+	float: left;
+	width: calc(4vw - 10px); height: 2.2vw;
+	margin: 0px; padding: 0px 10px;
+	margin-top: -0.2vw;
+	text-align: center;
+}
+
+.teamLogo {
+	float: left;
+	width: 2vw; height: 2vw;
+	margin: 0px; padding: 0px 0px;
+	text-align: center;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+	filter: drop-shadow(0 0 2px rgba(200,200,200,200));
+}
+
+.team.left .teamName { margin-right: 5px; }
+.team.right .teamName { margin-left: 3px; }
+
+.team.left .teamLogo {
+	transform: translate(0.8vw, 0vw);
+	margin-right: 15px;
+}
+.team.right .teamLogo {
+	transform: translate(-0.8vw, 0vw);
+	margin-left: 15px;
+}
+
+.team.left .score {background-color: #598acf;}
+
+.teamFight-container {
+	border-radius: 30px 30px 0px 0px;
+	overflow: hidden;
+	border-width: 10px;
+	border-top-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	width: 34.6vw; height: 5.9vw;
+	bottom: 0px; left: 50vw;
+	transform: translate(-50%, 0);
+
+	opacity: 0;
+}
+.teamFight-container.behind {
+	border-color: var(--Back);
+	border-style: ridge;
+	border-bottom-style: none;
+	width: calc(34.6vw - 20px);
+	height: 5.9vw;
+
+	opacity: 0;
+}
+
+@keyframes moveLogo {
+	0%   {background-position: -68% 52%;}
+	100% {background-position: 268% 52%;}
+}
+
+/* .teamFight {background: url('siteImages/overlayHelper2.png')} */
+.tf .timers,
+.tf .leaderboard,
+.tf .team { opacity: 0; }
+.tf .teamFight-container { opacity: 1; }
+
+
+/* .leaderboard { transition: 0.2s linear; }
+.nolb .leaderboard { transform: translate(-50%, 100%); } */
+
+.nolb .leaderboard { opacity: 0; }

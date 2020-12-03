@@ -1,0 +1,2131 @@
+{
+    "example": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1602206046236,
+                "winningTeam": [
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    }
+                ],
+                "shortCode": "NA0486f-24648ffe-5501-442d-8310-0432c6c16872",
+                "metaData": {
+                    "win_id": 123,
+                    "team1_ID": 123,
+                    "team2_ID": 123,
+                    "description": "Game Info"
+                },
+                "gameId": 3606637835,
+                "gameName": "dd9007c3-6a58-4b7c-8a45-04222a5f2521",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1602206046236,
+                "winningTeam": [
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    },
+                    {
+                        "summonerName": "summoner"
+                    }
+                ],
+                "shortCode": "NA0486f-24648ffe-5501-442d-8310-0432c6c16872",
+                "metaData": {
+                    "win_id": 123,
+                    "team1_ID": 123,
+                    "team2_ID": 123,
+                    "description": "Game Info"
+                },
+                "gameId": 3606637835,
+                "gameName": "dd9007c3-6a58-4b7c-8a45-04222a5f2521",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA04876-e3e3e4c4-5ee0-49c2-a139-f661f868b66e": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1602796030163,
+                "winningTeam": [
+                    {
+                        "summonerName": "FLY ON COOLDOWN"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Mercylas"
+                    }
+                ],
+                "shortCode": "NA04876-e3e3e4c4-5ee0-49c2-a139-f661f868b66e",
+                "metaData": {
+                    "team1_ID": "123",
+                    "team2_ID": "321",
+                    "description": "TEST"
+                },
+                "gameId": 3616715414,
+                "gameName": "96d5e8a2-a8dc-484d-842e-fadab17dbccf",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1602797830965,
+                "winningTeam": [],
+                "losingTeam": [],
+                "shortCode": "NA04876-e3e3e4c4-5ee0-49c2-a139-f661f868b66e",
+                "metaData": {
+                    "team1_ID": "123",
+                    "team2_ID": "321",
+                    "description": "TEST"
+                },
+                "gameId": 3616715648,
+                "gameName": "96d5e8a2-a8dc-484d-842e-fadab17dbccf",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA04876-48efb8b5-6832-4325-af20-0af002bd0826": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1602799904517,
+                "winningTeam": [
+                    {
+                        "summonerName": "Tanksiss"
+                    },
+                    {
+                        "summonerName": "PlayedNini526"
+                    },
+                    {
+                        "summonerName": "Triplevalyard"
+                    },
+                    {
+                        "summonerName": "Wılson"
+                    },
+                    {
+                        "summonerName": "Donutzzz"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Dpatt"
+                    },
+                    {
+                        "summonerName": "MagicalDemons"
+                    },
+                    {
+                        "summonerName": "Eichel"
+                    },
+                    {
+                        "summonerName": "brojo1"
+                    },
+                    {
+                        "summonerName": "Nergle"
+                    }
+                ],
+                "shortCode": "NA04876-48efb8b5-6832-4325-af20-0af002bd0826",
+                "metaData": {
+                    "team1_ID": "206",
+                    "team2_ID": "204",
+                    "description": "TU at QU"
+                },
+                "gameId": 3616695686,
+                "gameName": "c87f3f86-43c6-454b-bfdd-d60e4de8731c",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1602802383307,
+                "winningTeam": [
+                    {
+                        "summonerName": "Tanksiss"
+                    },
+                    {
+                        "summonerName": "Donutzzz"
+                    },
+                    {
+                        "summonerName": "Triplevalyard"
+                    },
+                    {
+                        "summonerName": "Wılson"
+                    },
+                    {
+                        "summonerName": "PlayedNini526"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Dpatt"
+                    },
+                    {
+                        "summonerName": "MagicalDemons"
+                    },
+                    {
+                        "summonerName": "luchador"
+                    },
+                    {
+                        "summonerName": "brojo1"
+                    },
+                    {
+                        "summonerName": "Nergle"
+                    }
+                ],
+                "shortCode": "NA04876-48efb8b5-6832-4325-af20-0af002bd0826",
+                "metaData": {
+                    "team1_ID": "206",
+                    "team2_ID": "204",
+                    "description": "TU at QU"
+                },
+                "gameId": 3616625905,
+                "gameName": "c87f3f86-43c6-454b-bfdd-d60e4de8731c",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA04876-0900c998-2def-4f61-a376-029a2fe1b5e2": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1602799659173,
+                "winningTeam": [
+                    {
+                        "summonerName": "ChuZday"
+                    },
+                    {
+                        "summonerName": "fluxay"
+                    },
+                    {
+                        "summonerName": "OpenBackpack"
+                    },
+                    {
+                        "summonerName": "XPsionicsx"
+                    },
+                    {
+                        "summonerName": "digitalotus"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Tentakai"
+                    },
+                    {
+                        "summonerName": "m m"
+                    },
+                    {
+                        "summonerName": "ptalp"
+                    },
+                    {
+                        "summonerName": "Never Story"
+                    },
+                    {
+                        "summonerName": "dirtbag"
+                    }
+                ],
+                "shortCode": "NA04876-0900c998-2def-4f61-a376-029a2fe1b5e2",
+                "metaData": {
+                    "team1_ID": "207",
+                    "team2_ID": "201",
+                    "description": "OU at CU"
+                },
+                "gameId": 3616815466,
+                "gameName": "0fcaaf01-3c24-47a5-9ff0-629ea862a4b3",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1602802242480,
+                "winningTeam": [
+                    {
+                        "summonerName": "ChuZday"
+                    },
+                    {
+                        "summonerName": "fluxay"
+                    },
+                    {
+                        "summonerName": "OpenBackpack"
+                    },
+                    {
+                        "summonerName": "XPsionicsx"
+                    },
+                    {
+                        "summonerName": "digitalotus"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Tentakai"
+                    },
+                    {
+                        "summonerName": "m m"
+                    },
+                    {
+                        "summonerName": "ptalp"
+                    },
+                    {
+                        "summonerName": "Never Story"
+                    },
+                    {
+                        "summonerName": "dirtbag"
+                    }
+                ],
+                "shortCode": "NA04876-0900c998-2def-4f61-a376-029a2fe1b5e2",
+                "metaData": {
+                    "team1_ID": "207",
+                    "team2_ID": "201",
+                    "description": "OU at CU"
+                },
+                "gameId": 3616815758,
+                "gameName": "0fcaaf01-3c24-47a5-9ff0-629ea862a4b3",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA04876-c2806916-8a86-4e56-bc71-cb88ef3c113a": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1602805635215,
+                "winningTeam": [
+                    {
+                        "summonerName": "Le Dawn"
+                    },
+                    {
+                        "summonerName": "Sybr"
+                    },
+                    {
+                        "summonerName": "Loyal"
+                    },
+                    {
+                        "summonerName": "demon links "
+                    },
+                    {
+                        "summonerName": "SkyTec"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Auzy"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "shortCode": "NA04876-c2806916-8a86-4e56-bc71-cb88ef3c113a",
+                "metaData": {
+                    "team1_ID": "211",
+                    "team2_ID": "203",
+                    "description": "WES at FAN"
+                },
+                "gameId": 3616686004,
+                "gameName": "3a965f29-7ec7-4c7e-abbd-c0aec66686ab",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1602808377377,
+                "winningTeam": [
+                    {
+                        "summonerName": "Le Dawn"
+                    },
+                    {
+                        "summonerName": "Sybr"
+                    },
+                    {
+                        "summonerName": "Loyal"
+                    },
+                    {
+                        "summonerName": "demon links "
+                    },
+                    {
+                        "summonerName": "SkyTec"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Auzy"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "shortCode": "NA04876-c2806916-8a86-4e56-bc71-cb88ef3c113a",
+                "metaData": {
+                    "team1_ID": "211",
+                    "team2_ID": "203",
+                    "description": "WES at FAN"
+                },
+                "gameId": 3616746331,
+                "gameName": "3a965f29-7ec7-4c7e-abbd-c0aec66686ab",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA04876-3416f1f4-e36f-4e76-b566-6f719229b08f": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1602806813199,
+                "winningTeam": [
+                    {
+                        "summonerName": "constanth"
+                    },
+                    {
+                        "summonerName": "RyanthekidRS"
+                    },
+                    {
+                        "summonerName": "Solarcellz"
+                    },
+                    {
+                        "summonerName": "LittleFrosty"
+                    },
+                    {
+                        "summonerName": "Architecture"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "qPAINp"
+                    },
+                    {
+                        "summonerName": "Sacrêd"
+                    },
+                    {
+                        "summonerName": "1Alchemist"
+                    },
+                    {
+                        "summonerName": "Nyvra"
+                    },
+                    {
+                        "summonerName": "KingDomOFJunBeom"
+                    }
+                ],
+                "shortCode": "NA04876-3416f1f4-e36f-4e76-b566-6f719229b08f",
+                "metaData": {
+                    "team1_ID": "208",
+                    "team2_ID": "202",
+                    "description": "UofT at CC"
+                },
+                "gameId": 3616756196,
+                "gameName": "8bcd11a7-52f5-4825-8f4b-b8cc8a5193dc",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1602809430012,
+                "winningTeam": [
+                    {
+                        "summonerName": "constanth"
+                    },
+                    {
+                        "summonerName": "Architecture"
+                    },
+                    {
+                        "summonerName": "Solarcellz"
+                    },
+                    {
+                        "summonerName": "LittleFrosty"
+                    },
+                    {
+                        "summonerName": "RyanthekidRS"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "KingDomOFJunBeom"
+                    },
+                    {
+                        "summonerName": "1Alchemist"
+                    },
+                    {
+                        "summonerName": "qPAINp"
+                    },
+                    {
+                        "summonerName": "Nyvra"
+                    },
+                    {
+                        "summonerName": "Sacrêd"
+                    }
+                ],
+                "shortCode": "NA04876-3416f1f4-e36f-4e76-b566-6f719229b08f",
+                "metaData": {
+                    "team1_ID": "208",
+                    "team2_ID": "202",
+                    "description": "UofT at CC"
+                },
+                "gameId": 3616736713,
+                "gameName": "8bcd11a7-52f5-4825-8f4b-b8cc8a5193dc",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0487c-d4618260-ec4f-4079-b5b9-917bbe6d1409": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1603318384523,
+                "winningTeam": [
+                    {
+                        "summonerName": "Architecture"
+                    },
+                    {
+                        "summonerName": "LittleFrosty"
+                    },
+                    {
+                        "summonerName": "DeafRef"
+                    },
+                    {
+                        "summonerName": "RyanthekidRS"
+                    },
+                    {
+                        "summonerName": "constanth"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Im Phrez"
+                    },
+                    {
+                        "summonerName": "AM Trick"
+                    },
+                    {
+                        "summonerName": "Eul"
+                    },
+                    {
+                        "summonerName": "1azy"
+                    },
+                    {
+                        "summonerName": "Mianspho"
+                    }
+                ],
+                "shortCode": "NA0487c-d4618260-ec4f-4079-b5b9-917bbe6d1409",
+                "metaData": {
+                    "win_ID": "208",
+                    "team1_ID": "205",
+                    "team2_ID": "208",
+                    "description": "SCC at UofT"
+                },
+                "gameId": 3626013219,
+                "gameName": "df7cc8ca-67fa-42cf-a5cc-c274b4fd24c6",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1603321529464,
+                "winningTeam": [
+                    {
+                        "summonerName": "Architecture"
+                    },
+                    {
+                        "summonerName": "LittleFrosty"
+                    },
+                    {
+                        "summonerName": "constanth"
+                    },
+                    {
+                        "summonerName": "RyanthekidRS"
+                    },
+                    {
+                        "summonerName": "DeafRef"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Im Phrez"
+                    },
+                    {
+                        "summonerName": "AM Trick"
+                    },
+                    {
+                        "summonerName": "Eul"
+                    },
+                    {
+                        "summonerName": "1azy"
+                    },
+                    {
+                        "summonerName": "Mianspho"
+                    }
+                ],
+                "shortCode": "NA0487c-d4618260-ec4f-4079-b5b9-917bbe6d1409",
+                "metaData": {
+                    "win_ID": "205",
+                    "team1_ID": "205",
+                    "team2_ID": "208",
+                    "description": "SCC at UofT"
+                },
+                "gameId": 3626103368,
+                "gameName": "df7cc8ca-67fa-42cf-a5cc-c274b4fd24c6",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0487d-85bc9f2e-a1ca-44e3-9153-aea5f8a0c185": {
+        "no_of_games": 3,
+        "games": [
+            {
+                "startTime": 1603405110082,
+                "winningTeam": [
+                    {
+                        "summonerName": "KingDomOFJunBeom"
+                    },
+                    {
+                        "summonerName": "Nyvra"
+                    },
+                    {
+                        "summonerName": "qPAINp"
+                    },
+                    {
+                        "summonerName": "1Alchemist"
+                    },
+                    {
+                        "summonerName": "Sacrêd"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Auzy"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "Bungus Blast"
+                    }
+                ],
+                "shortCode": "NA0487d-85bc9f2e-a1ca-44e3-9153-aea5f8a0c185",
+                "metaData": {
+                    "win_ID": "203",
+                    "team1_ID": "203",
+                    "team2_ID": "202",
+                    "description": "Fan Con"
+                },
+                "gameId": 3626147438,
+                "gameName": "4419d467-608e-4249-a010-29c8792dd820",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1603408733410,
+                "winningTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Auzy"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "KingDomOFJunBeom"
+                    },
+                    {
+                        "summonerName": "Nyvra"
+                    },
+                    {
+                        "summonerName": "qPAINp"
+                    },
+                    {
+                        "summonerName": "1Alchemist"
+                    },
+                    {
+                        "summonerName": "Sacrêd"
+                    }
+                ],
+                "shortCode": "NA0487d-85bc9f2e-a1ca-44e3-9153-aea5f8a0c185",
+                "metaData": {
+                    "win_ID": "203",
+                    "team1_ID": "203",
+                    "team2_ID": "202",
+                    "description": "Fan Con"
+                },
+                "gameId": 3626147750,
+                "gameName": "4419d467-608e-4249-a010-29c8792dd820",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1603412395209,
+                "winningTeam": [
+                    {
+                        "summonerName": "KingDomOFJunBeom"
+                    },
+                    {
+                        "summonerName": "Nyvra"
+                    },
+                    {
+                        "summonerName": "qPAINp"
+                    },
+                    {
+                        "summonerName": "1Alchemist"
+                    },
+                    {
+                        "summonerName": "Sacrêd"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Auzy"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "shortCode": "NA0487d-85bc9f2e-a1ca-44e3-9153-aea5f8a0c185",
+                "metaData": {
+                    "win_ID": "203",
+                    "team1_ID": "203",
+                    "team2_ID": "202",
+                    "description": "Fan Con"
+                },
+                "gameId": 3625978092,
+                "gameName": "4419d467-608e-4249-a010-29c8792dd820",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0487d-5b96c2d9-f69b-446f-84ff-edf4102d5b12": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1603404478469,
+                "winningTeam": [
+                    {
+                        "summonerName": "jayoya"
+                    },
+                    {
+                        "summonerName": "Sybr"
+                    },
+                    {
+                        "summonerName": "Loyal"
+                    },
+                    {
+                        "summonerName": "demon links "
+                    },
+                    {
+                        "summonerName": "SkyTec"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "ChickenDelivery"
+                    },
+                    {
+                        "summonerName": "Waeel"
+                    },
+                    {
+                        "summonerName": "cabstract"
+                    },
+                    {
+                        "summonerName": "Logia"
+                    },
+                    {
+                        "summonerName": "lnvent"
+                    }
+                ],
+                "shortCode": "NA0487d-5b96c2d9-f69b-446f-84ff-edf4102d5b12",
+                "metaData": {
+                    "win_ID": "212",
+                    "team1_ID": "211",
+                    "team2_ID": "212",
+                    "description": "Mus York"
+                },
+                "gameId": 3626097508,
+                "gameName": "f346a98f-67e7-48d3-ac5b-7deebba961cc",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1603409026290,
+                "winningTeam": [
+                    {
+                        "summonerName": "jayoya"
+                    },
+                    {
+                        "summonerName": "Sybr"
+                    },
+                    {
+                        "summonerName": "Loyal"
+                    },
+                    {
+                        "summonerName": "demon links "
+                    },
+                    {
+                        "summonerName": "SkyTec"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "ChickenDelivery"
+                    },
+                    {
+                        "summonerName": "Waeel"
+                    },
+                    {
+                        "summonerName": "lnvent"
+                    },
+                    {
+                        "summonerName": "cabstract"
+                    },
+                    {
+                        "summonerName": "Logia"
+                    }
+                ],
+                "shortCode": "NA0487d-5b96c2d9-f69b-446f-84ff-edf4102d5b12",
+                "metaData": {
+                    "win_ID": "211",
+                    "team1_ID": "211",
+                    "team2_ID": "212",
+                    "description": "Mus York"
+                },
+                "gameId": 3626037794,
+                "gameName": "f346a98f-67e7-48d3-ac5b-7deebba961cc",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0487d-787712f6-9805-4f51-b088-7c3d37212ca0": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1603411491137,
+                "winningTeam": [
+                    {
+                        "summonerName": "Tentakai"
+                    },
+                    {
+                        "summonerName": "m m"
+                    },
+                    {
+                        "summonerName": "ptalp"
+                    },
+                    {
+                        "summonerName": "Never Story"
+                    },
+                    {
+                        "summonerName": "dirtbag"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "MJC3Offline"
+                    },
+                    {
+                        "summonerName": "ir0n3d"
+                    },
+                    {
+                        "summonerName": "ReallySexyMan"
+                    },
+                    {
+                        "summonerName": "Young Tiller"
+                    },
+                    {
+                        "summonerName": "Brasilian Goku"
+                    }
+                ],
+                "shortCode": "NA0487d-787712f6-9805-4f51-b088-7c3d37212ca0",
+                "metaData": {
+                    "win_ID": "210",
+                    "team1_ID": "201",
+                    "team2_ID": "210",
+                    "description": "CU Waterloo"
+                },
+                "gameId": 3626157563,
+                "gameName": "b948d2c1-2cbf-4bc3-a2e8-7645f766e708",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1603413871649,
+                "winningTeam": [
+                    {
+                        "summonerName": "Tentakai"
+                    },
+                    {
+                        "summonerName": "m m"
+                    },
+                    {
+                        "summonerName": "ptalp"
+                    },
+                    {
+                        "summonerName": "Never Story"
+                    },
+                    {
+                        "summonerName": "dirtbag"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Young Tiller"
+                    },
+                    {
+                        "summonerName": "ReallySexyMan"
+                    },
+                    {
+                        "summonerName": "MJC3Offline"
+                    },
+                    {
+                        "summonerName": "ir0n3d"
+                    },
+                    {
+                        "summonerName": "Brasilian Goku"
+                    }
+                ],
+                "shortCode": "NA0487d-787712f6-9805-4f51-b088-7c3d37212ca0",
+                "metaData": {
+                    "win_ID": "210",
+                    "team1_ID": "201",
+                    "team2_ID": "210",
+                    "description": "CU Waterloo"
+                },
+                "gameId": 3626157881,
+                "gameName": "b948d2c1-2cbf-4bc3-a2e8-7645f766e708",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0487d-bc9d6ab7-265a-4cf5-8e78-1a3a1349cc75": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1603412812408,
+                "winningTeam": [
+                    {
+                        "summonerName": "Grus"
+                    },
+                    {
+                        "summonerName": "fluxay"
+                    },
+                    {
+                        "summonerName": "OpenBackpack"
+                    },
+                    {
+                        "summonerName": "XPsionicsx"
+                    },
+                    {
+                        "summonerName": "digitalotus"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Dpatt"
+                    },
+                    {
+                        "summonerName": "MagicalDemons"
+                    },
+                    {
+                        "summonerName": "Eichel"
+                    },
+                    {
+                        "summonerName": "brojo1"
+                    },
+                    {
+                        "summonerName": "Nergle"
+                    }
+                ],
+                "shortCode": "NA0487d-bc9d6ab7-265a-4cf5-8e78-1a3a1349cc75",
+                "metaData": {
+                    "win_ID": "207",
+                    "team1_ID": "207",
+                    "team2_ID": "206",
+                    "description": "GGs Trent"
+                },
+                "gameId": 3626118163,
+                "gameName": "a35e89f0-da14-445f-ad9b-ec25bb68892e",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1603415280887,
+                "winningTeam": [
+                    {
+                        "summonerName": "Grus"
+                    },
+                    {
+                        "summonerName": "fluxay"
+                    },
+                    {
+                        "summonerName": "OpenBackpack"
+                    },
+                    {
+                        "summonerName": "XPsionicsx"
+                    },
+                    {
+                        "summonerName": "digitalotus"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Dpatt"
+                    },
+                    {
+                        "summonerName": "Eichel"
+                    },
+                    {
+                        "summonerName": "MagicalDemons"
+                    },
+                    {
+                        "summonerName": "brojo1"
+                    },
+                    {
+                        "summonerName": "Nergle"
+                    }
+                ],
+                "shortCode": "NA0487d-bc9d6ab7-265a-4cf5-8e78-1a3a1349cc75",
+                "metaData": {
+                    "win_ID": "206",
+                    "team1_ID": "207",
+                    "team2_ID": "206",
+                    "description": "GGs Trent"
+                },
+                "gameId": 3626168390,
+                "gameName": "a35e89f0-da14-445f-ad9b-ec25bb68892e",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA04884-a66f98b7-76de-45a0-bd9d-b51ff59a81d9": {
+        "no_of_games": 3,
+        "games": [
+            {
+                "startTime": 1604009219448,
+                "winningTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Boón"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "ChickenDelivery"
+                    },
+                    {
+                        "summonerName": "Waeel"
+                    },
+                    {
+                        "summonerName": "cabstract"
+                    },
+                    {
+                        "summonerName": "Logia"
+                    },
+                    {
+                        "summonerName": "lnvent"
+                    }
+                ],
+                "shortCode": "NA04884-a66f98b7-76de-45a0-bd9d-b51ff59a81d9",
+                "metaData": {
+                    "win_ID": "212",
+                    "team1_ID": "212",
+                    "team2_ID": "203",
+                    "description": "YU @ FAN"
+                },
+                "gameId": 3636867057,
+                "gameName": "e4f4c414-7756-4d2a-914d-a2dfba3ea6e8",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604012973760,
+                "winningTeam": [
+                    {
+                        "summonerName": "lnvent"
+                    },
+                    {
+                        "summonerName": "Waeel"
+                    },
+                    {
+                        "summonerName": "cabstract"
+                    },
+                    {
+                        "summonerName": "Logia"
+                    },
+                    {
+                        "summonerName": "Ali2"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Boón"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "shortCode": "NA04884-a66f98b7-76de-45a0-bd9d-b51ff59a81d9",
+                "metaData": {
+                    "win_ID": "212",
+                    "team1_ID": "212",
+                    "team2_ID": "203",
+                    "description": "YU @ FAN"
+                },
+                "gameId": 3636867633,
+                "gameName": "e4f4c414-7756-4d2a-914d-a2dfba3ea6e8",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604015862744,
+                "winningTeam": [
+                    {
+                        "summonerName": "lnvent"
+                    },
+                    {
+                        "summonerName": "Waeel"
+                    },
+                    {
+                        "summonerName": "cabstract"
+                    },
+                    {
+                        "summonerName": "Logia"
+                    },
+                    {
+                        "summonerName": "Ali2"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Auzy"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "shortCode": "NA04884-a66f98b7-76de-45a0-bd9d-b51ff59a81d9",
+                "metaData": {
+                    "win_ID": "203",
+                    "team1_ID": "212",
+                    "team2_ID": "203",
+                    "description": "YU @ FAN"
+                },
+                "gameId": 3636868187,
+                "gameName": "e4f4c414-7756-4d2a-914d-a2dfba3ea6e8",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA04884-46facd9d-87a4-41dc-b21b-4d7371892e71": {
+        "no_of_games": 3,
+        "games": [
+            {
+                "startTime": 1604016785508,
+                "winningTeam": [
+                    {
+                        "summonerName": "MJC3Offline"
+                    },
+                    {
+                        "summonerName": "ir0n3d"
+                    },
+                    {
+                        "summonerName": "ReallySexyMan"
+                    },
+                    {
+                        "summonerName": "Young Tiller"
+                    },
+                    {
+                        "summonerName": "Brasilian Goku"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Im Phrez"
+                    },
+                    {
+                        "summonerName": "AM Trick"
+                    },
+                    {
+                        "summonerName": "Eul"
+                    },
+                    {
+                        "summonerName": "1azy"
+                    },
+                    {
+                        "summonerName": "Mianspho"
+                    }
+                ],
+                "shortCode": "NA04884-46facd9d-87a4-41dc-b21b-4d7371892e71",
+                "metaData": {
+                    "win_ID": "210",
+                    "team1_ID": "210",
+                    "team2_ID": "205",
+                    "description": "WIN @ SCC"
+                },
+                "gameId": 3636778223,
+                "gameName": "f82746f8-b4bc-44e8-985e-9ba7060f1134",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604020064063,
+                "winningTeam": [
+                    {
+                        "summonerName": "Im Phrez"
+                    },
+                    {
+                        "summonerName": "AM Trick"
+                    },
+                    {
+                        "summonerName": "Eul"
+                    },
+                    {
+                        "summonerName": "1azy"
+                    },
+                    {
+                        "summonerName": "Mianspho"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "MJC3Offline"
+                    },
+                    {
+                        "summonerName": "ir0n3d"
+                    },
+                    {
+                        "summonerName": "ReallySexyMan"
+                    },
+                    {
+                        "summonerName": "Young Tiller"
+                    },
+                    {
+                        "summonerName": "Brasilian Goku"
+                    }
+                ],
+                "shortCode": "NA04884-46facd9d-87a4-41dc-b21b-4d7371892e71",
+                "metaData": {
+                    "win_ID": "210",
+                    "team1_ID": "210",
+                    "team2_ID": "205",
+                    "description": "WIN @ SCC"
+                },
+                "gameId": 3636778856,
+                "gameName": "f82746f8-b4bc-44e8-985e-9ba7060f1134",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604023127160,
+                "winningTeam": [
+                    {
+                        "summonerName": "Im Phrez"
+                    },
+                    {
+                        "summonerName": "AM Trick"
+                    },
+                    {
+                        "summonerName": "Eul"
+                    },
+                    {
+                        "summonerName": "1azy"
+                    },
+                    {
+                        "summonerName": "Mianspho"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "MJC3Offline"
+                    },
+                    {
+                        "summonerName": "ir0n3d"
+                    },
+                    {
+                        "summonerName": "ReallySexyMan"
+                    },
+                    {
+                        "summonerName": "Young Tiller"
+                    },
+                    {
+                        "summonerName": "Brasilian Goku"
+                    }
+                ],
+                "shortCode": "NA04884-46facd9d-87a4-41dc-b21b-4d7371892e71",
+                "metaData": {
+                    "win_ID": "205",
+                    "team1_ID": "210",
+                    "team2_ID": "205",
+                    "description": "WIN @ SCC"
+                },
+                "gameId": 3636709362,
+                "gameName": "f82746f8-b4bc-44e8-985e-9ba7060f1134",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA04884-220c32ec-0b69-4ac4-8b7f-b5720caacecc": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1604020144969,
+                "winningTeam": [
+                    {
+                        "summonerName": "Le Dawn"
+                    },
+                    {
+                        "summonerName": "Sybr"
+                    },
+                    {
+                        "summonerName": "Loyal"
+                    },
+                    {
+                        "summonerName": "demon links "
+                    },
+                    {
+                        "summonerName": "SkyTec"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "constanth"
+                    },
+                    {
+                        "summonerName": "Solarcellz"
+                    },
+                    {
+                        "summonerName": "DeafRef"
+                    },
+                    {
+                        "summonerName": "RyanthekidRS"
+                    },
+                    {
+                        "summonerName": "LittleFrosty"
+                    }
+                ],
+                "shortCode": "NA04884-220c32ec-0b69-4ac4-8b7f-b5720caacecc",
+                "metaData": {
+                    "win_ID": "211",
+                    "team1_ID": "208",
+                    "team2_ID": "211",
+                    "description": "UofT @ WES"
+                },
+                "gameId": 3636668827,
+                "gameName": "e727f4a3-1b80-4b17-bb99-01f2bc10ae16",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604023269708,
+                "winningTeam": [
+                    {
+                        "summonerName": "Le Dawn"
+                    },
+                    {
+                        "summonerName": "Sybr"
+                    },
+                    {
+                        "summonerName": "Loyal"
+                    },
+                    {
+                        "summonerName": "demon links "
+                    },
+                    {
+                        "summonerName": "SkyTec"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "constanth"
+                    },
+                    {
+                        "summonerName": "Solarcellz"
+                    },
+                    {
+                        "summonerName": "RyanthekidRS"
+                    },
+                    {
+                        "summonerName": "DeafRef"
+                    },
+                    {
+                        "summonerName": "LittleFrosty"
+                    }
+                ],
+                "shortCode": "NA04884-220c32ec-0b69-4ac4-8b7f-b5720caacecc",
+                "metaData": {
+                    "win_ID": "208",
+                    "team1_ID": "208",
+                    "team2_ID": "211",
+                    "description": "UofT @ WES"
+                },
+                "gameId": 3636799424,
+                "gameName": "e727f4a3-1b80-4b17-bb99-01f2bc10ae16",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0488a-45b77c86-5454-4b7b-8399-e1d9df108e4f": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1604531538845,
+                "winningTeam": [
+                    {
+                        "summonerName": "Tentakai"
+                    },
+                    {
+                        "summonerName": "m m"
+                    },
+                    {
+                        "summonerName": "ptalp"
+                    },
+                    {
+                        "summonerName": "Never Story"
+                    },
+                    {
+                        "summonerName": "dirtbag"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Im Phrez"
+                    },
+                    {
+                        "summonerName": "AM Trick"
+                    },
+                    {
+                        "summonerName": "Eul"
+                    },
+                    {
+                        "summonerName": "1azy"
+                    },
+                    {
+                        "summonerName": "Mianspho"
+                    }
+                ],
+                "shortCode": "NA0488a-45b77c86-5454-4b7b-8399-e1d9df108e4f",
+                "metaData": {
+                    "win_ID": "201",
+                    "team1_ID": "201",
+                    "team2_ID": "205",
+                    "description": "CU @ SCS"
+                },
+                "gameId": 3644809674,
+                "gameName": "5da880a5-6373-4431-8d5a-0c91fd6cbd23",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604534863848,
+                "winningTeam": [
+                    {
+                        "summonerName": "Tentakai"
+                    },
+                    {
+                        "summonerName": "m m"
+                    },
+                    {
+                        "summonerName": "ptalp"
+                    },
+                    {
+                        "summonerName": "Never Story"
+                    },
+                    {
+                        "summonerName": "dirtbag"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Im Phrez"
+                    },
+                    {
+                        "summonerName": "AM Trick"
+                    },
+                    {
+                        "summonerName": "Eul"
+                    },
+                    {
+                        "summonerName": "1azy"
+                    },
+                    {
+                        "summonerName": "Mianspho"
+                    }
+                ],
+                "shortCode": "NA0488a-45b77c86-5454-4b7b-8399-e1d9df108e4f",
+                "metaData": {
+                    "win_ID": "201",
+                    "team1_ID": "201",
+                    "team2_ID": "205",
+                    "description": "CU @ SCS"
+                },
+                "gameId": 3644979569,
+                "gameName": "5da880a5-6373-4431-8d5a-0c91fd6cbd23",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0488a-f492a967-d4b1-4f62-be0f-1abdd1851690": {
+        "no_of_games": 3,
+        "games": [
+            {
+                "startTime": 1604538347603,
+                "winningTeam": [
+                    {
+                        "summonerName": "Grus"
+                    },
+                    {
+                        "summonerName": "fluxay"
+                    },
+                    {
+                        "summonerName": "OpenBackpack"
+                    },
+                    {
+                        "summonerName": "XPsionicsx"
+                    },
+                    {
+                        "summonerName": "digitalotus"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Boón"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "shortCode": "NA0488a-f492a967-d4b1-4f62-be0f-1abdd1851690",
+                "metaData": {
+                    "win_ID": "203",
+                    "team1_ID": "203",
+                    "team2_ID": "207",
+                    "description": "FAN @ GGs"
+                },
+                "gameId": 3648009775,
+                "gameName": "f888b2e7-8b1f-4117-a51e-b4aaed44670c",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604540998011,
+                "winningTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Boón"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Grus"
+                    },
+                    {
+                        "summonerName": "fluxay"
+                    },
+                    {
+                        "summonerName": "OpenBackpack"
+                    },
+                    {
+                        "summonerName": "XPsionicsx"
+                    },
+                    {
+                        "summonerName": "digitalotus"
+                    }
+                ],
+                "shortCode": "NA0488a-f492a967-d4b1-4f62-be0f-1abdd1851690",
+                "metaData": {
+                    "win_ID": "203",
+                    "team1_ID": "203",
+                    "team2_ID": "207",
+                    "description": "FAN @ GGs"
+                },
+                "gameId": 3647930312,
+                "gameName": "f888b2e7-8b1f-4117-a51e-b4aaed44670c",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604543798265,
+                "winningTeam": [
+                    {
+                        "summonerName": "Grus"
+                    },
+                    {
+                        "summonerName": "fluxay"
+                    },
+                    {
+                        "summonerName": "OpenBackpack"
+                    },
+                    {
+                        "summonerName": "XPsionicsx"
+                    },
+                    {
+                        "summonerName": "digitalotus"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "SwirlSwirlMix"
+                    },
+                    {
+                        "summonerName": "Cavelery"
+                    },
+                    {
+                        "summonerName": "Boón"
+                    },
+                    {
+                        "summonerName": "11111NORl"
+                    },
+                    {
+                        "summonerName": "2Pump"
+                    }
+                ],
+                "shortCode": "NA0488a-f492a967-d4b1-4f62-be0f-1abdd1851690",
+                "metaData": {
+                    "win_ID": "203",
+                    "team1_ID": "203",
+                    "team2_ID": "207",
+                    "description": "FAN @ GGs"
+                },
+                "gameId": 3647930555,
+                "gameName": "f888b2e7-8b1f-4117-a51e-b4aaed44670c",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0488b-5ce13059-6b65-40a5-9c1f-a74306d07853": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1604617536568,
+                "winningTeam": [
+                    {
+                        "summonerName": "Tanksiss"
+                    },
+                    {
+                        "summonerName": "PlayedNini526"
+                    },
+                    {
+                        "summonerName": "Triplevalyard"
+                    },
+                    {
+                        "summonerName": "Wılson"
+                    },
+                    {
+                        "summonerName": "EImerulia"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "MJC3Offline"
+                    },
+                    {
+                        "summonerName": "ir0n3d"
+                    },
+                    {
+                        "summonerName": "ReallySexyMan"
+                    },
+                    {
+                        "summonerName": "Young Tiller"
+                    },
+                    {
+                        "summonerName": "Brasilian Goku"
+                    }
+                ],
+                "shortCode": "NA0488b-5ce13059-6b65-40a5-9c1f-a74306d07853",
+                "metaData": {
+                    "win_ID": "204",
+                    "team1_ID": "210",
+                    "team2_ID": "204",
+                    "description": "LAN @ QUEENS"
+                },
+                "gameId": 3648173547,
+                "gameName": "09f9a746-6cc7-4cd8-a701-dbd9d3344c01",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604621334114,
+                "winningTeam": [
+                    {
+                        "summonerName": "Tanksiss"
+                    },
+                    {
+                        "summonerName": "PlayedNini526"
+                    },
+                    {
+                        "summonerName": "Triplevalyard"
+                    },
+                    {
+                        "summonerName": "Wılson"
+                    },
+                    {
+                        "summonerName": "EImerulia"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "MJC3Offline"
+                    },
+                    {
+                        "summonerName": "ir0n3d"
+                    },
+                    {
+                        "summonerName": "ReallySexyMan"
+                    },
+                    {
+                        "summonerName": "Young Tiller"
+                    },
+                    {
+                        "summonerName": "Brasilian Goku"
+                    }
+                ],
+                "shortCode": "NA0488b-5ce13059-6b65-40a5-9c1f-a74306d07853",
+                "metaData": {
+                    "win_ID": "210",
+                    "team1_ID": "210",
+                    "team2_ID": "204",
+                    "description": "LAN @ QUEENS"
+                },
+                "gameId": 3648173780,
+                "gameName": "09f9a746-6cc7-4cd8-a701-dbd9d3344c01",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0488b-ac62b3f6-abd5-41d8-ab85-c9340d798c29": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1604625234207,
+                "winningTeam": [
+                    {
+                        "summonerName": "constanth"
+                    },
+                    {
+                        "summonerName": "dong in a thong"
+                    },
+                    {
+                        "summonerName": "DeafRef"
+                    },
+                    {
+                        "summonerName": "RyanthekidRS"
+                    },
+                    {
+                        "summonerName": "LittleFrosty"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Xenobladeguy1337"
+                    },
+                    {
+                        "summonerName": "DarkX"
+                    },
+                    {
+                        "summonerName": "Happo2"
+                    },
+                    {
+                        "summonerName": "Ino1"
+                    },
+                    {
+                        "summonerName": "Special Kay"
+                    }
+                ],
+                "shortCode": "NA0488b-ac62b3f6-abd5-41d8-ab85-c9340d798c29",
+                "metaData": {
+                    "win_ID": "208",
+                    "team1_ID": "209",
+                    "team2_ID": "208",
+                    "description": "WAT @ UofT"
+                },
+                "gameId": 3647715128,
+                "gameName": "777bf7e8-027f-4b16-949d-93912f01d620",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604628371514,
+                "winningTeam": [
+                    {
+                        "summonerName": "constanth"
+                    },
+                    {
+                        "summonerName": "dong in a thong"
+                    },
+                    {
+                        "summonerName": "DeafRef"
+                    },
+                    {
+                        "summonerName": "RyanthekidRS"
+                    },
+                    {
+                        "summonerName": "LittleFrosty"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "50 Fury W"
+                    },
+                    {
+                        "summonerName": "DarkX"
+                    },
+                    {
+                        "summonerName": "Happo2"
+                    },
+                    {
+                        "summonerName": "Ino1"
+                    },
+                    {
+                        "summonerName": "Special Kay"
+                    }
+                ],
+                "shortCode": "NA0488b-ac62b3f6-abd5-41d8-ab85-c9340d798c29",
+                "metaData": {
+                    "win_ID": "209",
+                    "team1_ID": "209",
+                    "team2_ID": "208",
+                    "description": "WAT @ UofT"
+                },
+                "gameId": 3647974892,
+                "gameName": "777bf7e8-027f-4b16-949d-93912f01d620",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    },
+    "NA0488b-2b5f0ad8-44a5-4e31-87c0-384978351f3a": {
+        "no_of_games": 2,
+        "games": [
+            {
+                "startTime": 1604625458837,
+                "winningTeam": [
+                    {
+                        "summonerName": "Aeolusz"
+                    },
+                    {
+                        "summonerName": "Nyvra"
+                    },
+                    {
+                        "summonerName": "qPAINp"
+                    },
+                    {
+                        "summonerName": "1Alchemist"
+                    },
+                    {
+                        "summonerName": "Sacrêd"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Dpatt"
+                    },
+                    {
+                        "summonerName": "Eichel"
+                    },
+                    {
+                        "summonerName": "MagicalDemons"
+                    },
+                    {
+                        "summonerName": "brojo1"
+                    },
+                    {
+                        "summonerName": "Sharpeye864"
+                    }
+                ],
+                "shortCode": "NA0488b-2b5f0ad8-44a5-4e31-87c0-384978351f3a",
+                "metaData": {
+                    "win_ID": "202",
+                    "team1_ID": "202",
+                    "team2_ID": "206",
+                    "description": "CC @ TU"
+                },
+                "gameId": 3648074630,
+                "gameName": "732ce214-94a7-47fe-92a8-794e636af3af",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            },
+            {
+                "startTime": 1604628408439,
+                "winningTeam": [
+                    {
+                        "summonerName": "Aeolusz"
+                    },
+                    {
+                        "summonerName": "LunarEffect"
+                    },
+                    {
+                        "summonerName": "qPAINp"
+                    },
+                    {
+                        "summonerName": "Long Kai Duan"
+                    },
+                    {
+                        "summonerName": "Sacrêd"
+                    }
+                ],
+                "losingTeam": [
+                    {
+                        "summonerName": "Dpatt"
+                    },
+                    {
+                        "summonerName": "Eichel"
+                    },
+                    {
+                        "summonerName": "MagicalDemons"
+                    },
+                    {
+                        "summonerName": "brojo1"
+                    },
+                    {
+                        "summonerName": "Sharpeye864"
+                    }
+                ],
+                "shortCode": "NA0488b-2b5f0ad8-44a5-4e31-87c0-384978351f3a",
+                "metaData": {
+                    "win_ID": "202",
+                    "team1_ID": "202",
+                    "team2_ID": "206",
+                    "description": "CC @ TU"
+                },
+                "gameId": 3648244487,
+                "gameName": "732ce214-94a7-47fe-92a8-794e636af3af",
+                "gameType": "Practice",
+                "gameMap": 11,
+                "gameMode": "CLASSIC",
+                "region": "NA1"
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ingame UI</title>
+
+		<link rel="stylesheet" href="ingame_style">
+	</head>
+	<body class="nolb">
+		<div class="timers behind left"></div>
+		<div class="timers behind right"></div>
+		<div class="timers left"></div>
+		<div class="timers right"></div>
+		<div id="baronTimer"></div>
+		<div id="elderTimer"></div>
+
+		<!-- <div class="leaderboard behind"></div>
+		<div class="leaderboard"></div>
+		
+		<div class="minimap behind"></div>
+		<div class="minimap"></div> -->
+
+		<div class="bottomLeft"></div>
+
+		<div class="topbar behind"></div>
+		<div class="topbar behind"></div>
+		<div class="topbar"></div>
+
+		<div class="team left">
+			<div id="team1_logo" class="teamLogo"></div>
+			<div id="team1_name" class="teamName"></div>
+			<div id="team1_score" class="score">0</div>
+		</div>
+		<div class="team right">
+			<div id="team2_score" class="score">0</div>
+			<div id="team2_name" class="teamName"></div>
+			<div id="team2_logo" class="teamLogo"></div>
+		</div>
+
+		<div class="teamFight-container behind"></div>
+		<div class="teamFight-container"></div>
+
+		<!--=====================================================
+			JavaScript Files
+		=====================================================-->
+		<script src="jquery.min.js"></script>
+		<script src="jquery.magnific-popup.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="ingame_client"></script>
+	</body>
+</html>

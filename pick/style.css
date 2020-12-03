@@ -1,0 +1,303 @@
+@import url(https://fonts.googleapis.com/css2?family=Jura:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+:root {
+	--Main: #D7282F;
+	--Back: #101820;
+
+	--Red: #F92672;
+	--Blue: #66D9EF;
+	--Grey: #75715E;
+	--Black: #272822;
+	--White: #F8F8F2;
+	--Green: #A6E22E;
+	--Purple: #AE81FF;
+	--Orange: #FD971F;
+	--Yellow: #E6DB74;
+	--LightOrange: #E69F66;
+}
+
+body {
+	/* background: var(--Black); */
+	color: var(--White);
+	font-family: Jura;
+}
+
+*{ transition: 1s; }
+
+#center_info {
+	background-color: var(--Back);
+	border-radius: 30px 30px 0px 0px;
+	overflow: hidden;
+	border-top-width: 10px;
+	border-top-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+	
+	position: fixed;
+	left: 50%; bottom: -22%;
+	width: 14%; height: 20%;
+	transform: translate(-50%, 0);
+}
+
+#opse_logo {
+	background-image: url('/siteImages/OPSE_Logo_HorizontalLight.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+
+	position: relative;
+	top: 2%;
+	width: 100%; height: 35%;
+}
+
+#indicator {
+	position: absolute;
+	top: 215%; left: 50%;
+	transform: translate(-50%, 0px);
+	font-size: 18pt;
+	opacity: 0;
+}
+
+#team1_logo {
+	position: absolute;
+	width: 55%; height: 70%;
+	top: 120%; left: 2%;
+
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+    
+	filter: drop-shadow(0 0 4px rgba(200,200,200,200));
+	transition: 0.4s;
+}
+
+#team2_logo {
+	position: absolute;
+	width: 55%; height: 70%;
+	top: 120%; right: 2%;
+
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: contain;
+    
+    filter: drop-shadow(0 0 4px rgba(200,200,200,200));
+	transition: 0.4s;
+}
+
+#team1_name {
+	text-align: center;
+	position: absolute;
+	width: 55%; height: 70%;
+	top: 215%; left: 2%;
+	font-weight: 700;
+	font-size: 18pt;
+	transition: 0.4s;
+}
+
+#team2_name {
+	text-align: center;
+	position: absolute;
+	width: 55%; height: 70%;
+	top: 215%; right: 2%;
+	font-weight: 700;
+	font-size: 18pt;
+	transition: 0.4s;
+}
+
+#team1_score {
+	position: absolute;
+	width: 55%;
+	top: 120%; left: 2%;
+	font-size: 50pt;
+	text-align: center;
+    background: var(--Back);
+}
+
+#team2_score {
+	position: absolute;
+	width: 55%;
+	top: 120%; right: 2%;
+	font-size: 50pt;
+	text-align: center;
+    background: var(--Back);
+}
+
+#vs {
+    position: absolute;
+	width: 100%; top: 120%;
+	font-size: 50pt;
+    text-align: center;
+    transition: 0.4s;
+}
+
+#vs.hidden,
+#team1_logo.hidden,
+#team2_logo.hidden,
+#team1_name.hidden,
+#team2_name.hidden,
+#team1_score.hidden,
+#team2_score.hidden,
+.teams_display_holder.hidden { opacity: 0; }
+
+.teams_display_holder {
+	position: absolute;
+	width: 100%; height: 100%;
+}
+
+.logo_placeholder {
+	position: absolute;
+	height: 9.89vw; width: 9.89vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+	filter: drop-shadow(0 0 4px rgba(200,200,200,200));
+}
+.logo_placeholder.right { right: 0px; }
+
+.name_placeholder {
+	position: absolute;
+	height: 100%; width: 70%;
+	left: 9.89vw; top: calc(50% - 16pt);
+	font-size: 32pt;
+	text-transform: uppercase;
+	font-weight: 700;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.name_placeholder.right {
+	text-align: right;
+	right: 9.89vw; left: 0;
+}
+
+#team1_container {
+	background-color: var(--Back);
+	border-radius: 30px 0px 0px 0px;
+	overflow: hidden;
+	border-left-width: 10px;
+	border-left-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	right: calc(57% - 10px); bottom: -26%;
+	width: 0%; height: 18%;
+
+	display: flex;
+}
+
+#team2_container {
+	background-color: var(--Back);
+	border-radius: 0px 30px 0px 0px;
+	overflow: hidden;
+	border-right-width: 10px;
+	border-right-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	position: fixed;
+	left: calc(57% - 10px); bottom: -26%;
+	width: 0%; height: 18%;
+
+	display: flex;
+}
+
+.champContainer {
+	float: left;
+	position: relative;
+	width: calc(20% - 2px); height: 100%;
+
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: 50% 35%;
+
+	border: 1px solid var(--Back);
+
+	transition: 0.4s;
+}
+.champContainer.hidden {
+	border-radius: 0px;
+	transform: translate(0, 100%);
+}
+
+.champImg {
+	position: absolute;
+	width: 100%; height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* transition: none; */
+}
+
+.banChampImg {
+	position: absolute;
+	width: 20%; height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: grayscale(80%);
+	/* transition: none; */
+}
+
+.plrName {
+	position: absolute;
+	width: 100%; bottom: 0px;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+#team1_ban_container {
+	position: fixed;
+	left: 5%; bottom: 18%;
+	display: flex;
+
+	overflow: hidden;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	width: 15%; height: 0%;
+	background: var(--Back);
+}
+
+#team2_ban_container {
+	position: fixed;
+	right: 5%; bottom: 18%;
+	display: flex;
+
+	overflow: hidden;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	width: 15%; height: 0%;
+	background: var(--Back);
+}
+
+.banContainer {
+	float: left;
+	width: 20%; height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.active-pick { animation: blink 2s infinite; }
+
+@keyframes blink {
+	0%   {box-shadow: inset 0 0 0px}
+	50%  {box-shadow: inset 0 0 10px}
+	100% {box-shadow: inset 0 0 0px}
+}
+
+.pick1_1 {border-radius: 22px 0 0 0;}
+.pick2_1 {border-radius: 0 22px 0 0;}
+
+.champL {
+	border-radius: 30px 0 0 0;
+	overflow: hidden;
+}
+
+.champR {
+	border-radius: 0 30px 0 0;
+	overflow: hidden;
+}
+
+#testDiv { opacity: 0; }

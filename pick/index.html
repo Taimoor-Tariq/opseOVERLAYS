@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pick UI</title>
+
+		<link rel="stylesheet" href="pick_style">
+	</head>
+	<body onload="getPatch()">
+		<div id="testDiv"></div>
+		<iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+		<audio id="champSelect_player" loop>
+			<source id="champSelect_player_src" src="https://overlaymodules.com/LoL-audio/Worlds-2019-4.mp3" type="audio/mp3">
+		</audio>
+
+		<div id="team1_ban_container">
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban1_1 team1_ban1_square"></div></div>
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban1_2 team1_ban2_square"></div></div>
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban1_3 team1_ban3_square"></div></div>
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban1_4 team1_ban4_square"></div></div>
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban1_5 team1_ban5_square"></div></div>
+		</div>
+
+		<div id="team2_ban_container">
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban2_5 team2_ban5_square"></div></div>
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban2_4 team2_ban4_square"></div></div>
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban2_3 team2_ban3_square"></div></div>
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban2_2 team2_ban2_square"></div></div>
+			<div class="banContainer" style="background-image: url('/siteImages/ban_square.png');"><div class="banChampImg ban2_1 team2_ban1_square"></div></div>
+		</div>
+
+		<div id="team1_container">
+			<div class="teams_display_holder team1_bgcolor1 team1_fontcolor2">
+				<div class="team1_logo2 logo_placeholder"></div>
+				<div class="team1_name name_placeholder"></div>
+			</div>
+			<div class="hidden champContainer champL" style="background-image: url('siteImages/top_lane_icon.png');"><div class="champImg team1_player1_splash_center pick1_1"><div class="team1_player1_name plrName team1_bgcolor1 team1_fontcolor2"></div></div></div>
+			<div class="hidden champContainer       " style="background-image: url('siteImages/jun_lane_icon.png');"><div class="champImg team1_player2_splash_center pick1_2"><div class="team1_player2_name plrName team1_bgcolor1 team1_fontcolor2"></div></div></div>
+			<div class="hidden champContainer       " style="background-image: url('siteImages/mid_lane_icon.png');"><div class="champImg team1_player3_splash_center pick1_3"><div class="team1_player3_name plrName team1_bgcolor1 team1_fontcolor2"></div></div></div>
+			<div class="hidden champContainer       " style="background-image: url('siteImages/bot_lane_icon.png');"><div class="champImg team1_player4_splash_center pick1_4"><div class="team1_player4_name plrName team1_bgcolor1 team1_fontcolor2"></div></div></div>
+			<div class="hidden champContainer       " style="background-image: url('siteImages/sup_lane_icon.png');"><div class="champImg team1_player5_splash_center pick1_5"><div class="team1_player5_name plrName team1_bgcolor1 team1_fontcolor2"></div></div></div>
+		</div>
+
+		<div id="team2_container">
+			<div class="teams_display_holder team2_bgcolor1 team2_fontcolor2">
+				<div class="team2_logo2 logo_placeholder right"></div>
+				<div class="team2_name name_placeholder right"></div>
+			</div>
+			<div class="hidden champContainer       " style="background-image: url('siteImages/sup_lane_icon.png');"><div class="champImg team2_player5_splash_center pick2_5"><div class="team2_player5_name plrName team2_bgcolor1 team2_fontcolor2"></div></div></div>
+			<div class="hidden champContainer       " style="background-image: url('siteImages/bot_lane_icon.png');"><div class="champImg team2_player4_splash_center pick2_4"><div class="team2_player4_name plrName team2_bgcolor1 team2_fontcolor2"></div></div></div>
+			<div class="hidden champContainer       " style="background-image: url('siteImages/mid_lane_icon.png');"><div class="champImg team2_player3_splash_center pick2_3"><div class="team2_player3_name plrName team2_bgcolor1 team2_fontcolor2"></div></div></div>
+			<div class="hidden champContainer       " style="background-image: url('siteImages/jun_lane_icon.png');"><div class="champImg team2_player2_splash_center pick2_2"><div class="team2_player2_name plrName team2_bgcolor1 team2_fontcolor2"></div></div></div>
+			<div class="hidden champContainer champR" style="background-image: url('siteImages/top_lane_icon.png');"><div class="champImg team2_player1_splash_center pick2_1"><div class="team2_player1_name plrName team2_bgcolor1 team2_fontcolor2"></div></div></div>
+		</div>
+
+		<div id="center_info">
+			<div id="opse_logo">
+				<div id="team1_logo" class="team1_logo hidden"></div>
+				<div id="team2_logo" class="team2_logo hidden"></div>
+				<div id="team1_name" class="team1_abbr hidden"></div>
+				<div id="team2_name" class="team2_abbr hidden"></div>
+				<div id="vs">VS</div>
+				<div id="team1_score" class="team1_score"></div>
+				<div id="team2_score" class="team2_score"></div>
+				<span id="indicator">◄</span>
+			</div>
+		</div>
+
+		<!--=====================================================
+			JavaScript Files
+		=====================================================-->
+		<script src="jquery.min.js"></script>
+		<script src="jquery.magnific-popup.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="pick_client"></script>
+	</body>
+</html>

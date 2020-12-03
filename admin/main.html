@@ -1,0 +1,231 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>OPSE ADMIN</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="admin_style">
+		
+		<script src="https://kit.fontawesome.com/7e8647c319.js" crossorigin="anonymous"></script>
+	</head>
+	<body onload="loadData()">
+		<div style="display: none; overflow: hidden;">
+			<input id="config_team1_logo" type="text" />
+            <input id="config_team2_logo" type="text" />
+            <input id="config_team1_logo2" type="text" />
+			<input id="config_team2_logo2" type="text" />
+		</div>
+
+		<div class="flexbox">
+			<div style="padding: 20px 40px;">
+				<h1>Blue Side Info</h1>
+				<div class="input-group" style="width: 425px;">
+					<input class="cl" id="config_team1_name" placeholder="name" type="text" style="width: 130px;" />
+					<input id="config_team1_abbr" placeholder="abbr" type="text" style="width: 50px;" />
+					<input id="config_team1_score" placeholder="score" type="text" style="width: 50px;" />
+					<input id="config_team1_color1" type="color" style="width: 45px; padding: 2px 4px;"/>
+					<input id="config_team1_color2" type="color" style="width: 45px; padding: 2px 4px;" />
+		
+					<input type="file" id="team1_logo_img" accept="image/*" class="inputfile" onchange="uploadLogo(this, 'config_team1_logo')">
+                    <label for="team1_logo_img"><i class="fas fa-upload"></i></label>
+                    
+                    <input type="file" id="team1_logo2_img" accept="image/*" class="inputfile" onchange="uploadLogo(this, 'config_team1_logo2')">
+					<label for="team1_logo2_img"><i class="fas fa-upload"></i></label>
+				</div>
+		
+				
+				<h1 style="margin-top: 40px;">Blue Side Info</h1>
+				<div class="input-group" style="width: 425px;">
+					<input class="cl" id="config_team2_name" placeholder="name" type="text" style="width: 130px;" />
+					<input id="config_team2_abbr" placeholder="abbr" type="text" style="width: 50px;" />
+					<input id="config_team2_score" placeholder="score" type="text" style="width: 50px;" />
+					<input id="config_team2_color1" type="color" style="width: 45px; padding: 2px 4px;"/>
+					<input id="config_team2_color2" type="color" style="width: 45px; padding: 2px 4px;" />
+		
+					<input type="file" id="team2_logo_img" accept="image/*" class="inputfile" onchange="uploadLogo(this, 'config_team2_logo')">
+                    <label for="team2_logo_img"><i class="fas fa-upload"></i></label>
+                    <input type="file" id="team2_logo2_img" accept="image/*" class="inputfile" onchange="uploadLogo(this, 'config_team2_logo2')">
+					<label for="team2_logo2_img"><i class="fas fa-upload"></i></label>
+				</div>
+		
+				<div class="input-group" style="width: 425px; margin-top: 40px;">
+					<button class="btn other-btn" onclick="updateData()">SAVE</button>&nbsp;
+					<button class="btn other-btn" onclick="swithcSides()">SWITCH SIDES</button>
+				</div>
+
+				<h1 style="margin-top: 40px;">Sequences</h1>
+				<div class="input-group" style="width: 425px;">
+					<button class="btn other-btn" onclick="triggerSequence('start')">START</button>&nbsp;
+					<button class="btn other-btn" onclick="triggerSequence('dragon')">DRAGON</button>&nbsp;
+					<button class="btn other-btn" onclick="triggerSequence()">STOP</button>
+				</div>
+			</div>
+
+			<div style="padding: 20px 40px;">
+				<h1>UI Elements</h1>
+				
+				<table style="width: 100%; transform: translate(0, -20px);">
+					<tr>
+						<td colspan="2">
+							<button class="btn other-btn" onclick="setupUI()" style="width: 100% !important;">INITIAL SETUP (hide chat etc...)</button>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="padding-left: 10px;" colspan="2">
+							<hr>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="padding-left: 10px;">
+							<label class="switch">
+								<input type="checkbox" onchange="togglePick(this.checked)">
+								<span class="slider"></span>
+							</label>
+						</td>
+						<td style="width: 100%;">PICK UI</td>
+					</tr>
+
+					<tr>
+						<td style="padding-left: 10px;">
+							<label class="switch">
+								<input type="checkbox" onchange="toggleChamps(this.checked)">
+								<span class="slider"></span>
+							</label>
+						</td>
+						<td style="width: 100%;">CHAMPIONS</td>
+					</tr>
+
+					<tr>
+						<td style="padding-left: 10px;" colspan="2">
+							<hr>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="padding-left: 10px;">
+							<label class="switch">
+								<input type="checkbox" onchange="overlayIngame(this.checked)">
+								<span class="slider"></span>
+							</label>
+						</td>
+						<td style="width: 100%;">INGAME UI</td>
+					</tr>
+
+					<tr>
+						<td style="padding-left: 10px;">
+							<label class="switch">
+								<input type="checkbox" onchange="showLB(this.checked)">
+								<span class="slider"></span>
+							</label>
+						</td>
+						<td style="width: 100%;">LEADERBOARD</td>
+					</tr>
+
+					<tr>
+						<td style="padding-left: 10px;">
+							<label class="switch">
+								<input type="checkbox" onchange="showALL(this.checked)" checked>
+								<span class="slider"></span>
+							</label>
+						</td>
+						<td style="width: 100%;">ALL UI</td>
+					</tr>
+
+					<tr>
+						<td style="padding-left: 10px;" colspan="2">
+							<hr>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2" style="padding-top: 20px;">
+							<p style="margin: 0px;">Skybox</p>
+							<div class="input-group" style="width: 425px;">
+								<input class="cl" id="skybox_name" placeholder="URL or File name" type="text" style="width: 100%;" />
+								<input type="button" class="btn other-btn" value="SAVE" onclick="updateSkybox()" />
+							</div>
+							<p style="margin: 0px; font-size: 10pt; text-align: right;">Local skyboxes are in <b>C:/opse-lol/skyboxes</b></p>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div style="padding: 20px 40px;">
+				<h1>Timers</h1>
+				
+				<table style="width: 100%; transform: translate(0, -20px);">
+					<tr>
+						<td style="padding-left: 10px;">
+							<label class="switch">
+								<input type="checkbox" onchange="timerPaused(this.checked)">
+								<span class="slider"></span>
+							</label>
+						</td>
+						<td style="width: 100%;">TIMER PAUSED</td>
+					</tr>
+					
+					<tr>
+						<td colspan="2" style="padding-top: 20px;">
+							<p style="margin: 0px;">Baron</p>
+							<div class="input-group" style="width: 425px;">
+								<input type="button" class="btn other-btn" value="BLUE SIDE" onclick="setBaron(true)" />
+								<input id="baron_time" placeholder="Time in seconds" type="text" value="180" style="width: 100%;" />
+								<input type="button" class="btn other-btn" value="RED SIDE" onclick="setBaron(false)" />
+							</div>
+							<p style="margin: 0px; margin-top: 10px;">Elder</p>
+							<div class="input-group" style="width: 425px;">
+								<input type="button" class="btn other-btn" value="BLUE SIDE" onclick="setElder(true)" />
+								<input id="elder_time" placeholder="Time in seconds" type="text" value="120" style="width: 100%;" />
+								<input type="button" class="btn other-btn" value="RED SIDE" onclick="setElder(false)" />
+							</div>
+						</td>
+					</tr>
+				</table>
+
+				<h1>Background Audio</h1>
+				
+				<table style="width: 100%; transform: translate(0, -20px);">
+					<tr>
+						<td style="width: 100%; padding-left: 10px;">
+							<div class="input-group" style="width: 425px;">
+								<select onchange="musicChange(this.value)" class="cf" style="width: 100%;">
+									<option disabled>───────────────────────────────────────────</option>
+									<option value="https://overlaymodules.com/LoL-audio/Worlds-2019-4.mp3">Champ Select 1 (Worlds 2019)</option>
+									<option value="https://overlaymodules.com/LoL-audio/Worlds-2019-2.mp3">Champ Select 2 (Worlds 2019)</option>
+									<option value="https://overlaymodules.com/LoL-audio/Worlds-2019-3.mp3">Champ Select 3 (Worlds 2019)</option>
+									<option value="https://overlaymodules.com/LoL-audio/Worlds-2019-1.mp3">Champ Select 4 (Worlds 2019)</option>
+									<option disabled>───────────────────────────────────────────</option>
+									<option value="https://overlaymodules.com/LoL-audio/LEC-2020-1.mp3">Champ Select 1 (LEC 2020)</option>
+									<option value="https://overlaymodules.com/LoL-audio/LEC-2020-3.mp3">Champ Select 2 (LEC 2020)</option>
+									<option value="https://overlaymodules.com/LoL-audio/LEC-2020-4.mp3">Champ Select 3 (LEC 2020)</option>
+									<option disabled>───────────────────────────────────────────</option>
+									<option value="https://overlaymodules.com/LoL-audio/LCS-2019-1.mp3">Champ Select 1 (LCS 2019)</option>
+									<option value="https://overlaymodules.com/LoL-audio/LCS-2019-2.mp3">Champ Select 2 (LCS 2019)</option>
+									<option disabled>───────────────────────────────────────────</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<label class="switch">
+								<input type="checkbox" onchange="musicPlay(this.checked)">
+								<span class="slider"></span>
+							</label>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+
+		<!--=====================================================
+			JavaScript Files
+		=====================================================-->
+		<script src="jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="admin_client"></script>
+	</body>
+</html>

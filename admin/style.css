@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css2?family=Jura:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+:root {
+	--Main: #D7282F;
+	--Back: #101820;
+
+	--Red: #F92672;
+	--Blue: #66D9EF;
+	--Grey: #75715E;
+	--Black: #272822;
+	--White: #F8F8F2;
+	--Green: #A6E22E;
+	--Purple: #AE81FF;
+	--Orange: #FD971F;
+	--Yellow: #E6DB74;
+	--LightOrange: #E69F66;
+}
+
+* {
+	transition: 0.4s;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--Back);
+	color: var(--White);
+	font-family: Jura;
+}
+
+#bgVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+}
+
+#login-container {
+	position: fixed;
+	top: 50%; left: 50%;
+	width: 600px; height: 400px;
+	transform: translate(-50%, -50%);
+
+	background-color: var(--Back);
+	border-radius: 30px;
+	overflow: hidden;
+	border-width: 10px;
+	border-top-style: ridge;
+	border-bottom-style: ridge;
+	border-color: #ffffff;
+	box-shadow: inset 0px 0px 25px 0px #000000;
+
+	filter: drop-shadow(0 0 30px #222);
+}
